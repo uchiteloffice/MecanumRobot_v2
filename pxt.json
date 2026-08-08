@@ -1,7 +1,7 @@
 {
     "name": "pxt-mecanum-robot",
-    "version": "0.0.0",
-    "description": "keyestudio mecanum robot for microbit",
+    "version": "0.1.0",
+    "description": "keyestudio mecanum robot for micro:bit — с БЪЛГАРСКИ блокове (uchitel.bg)",
     "dependencies": {
         "core": "*",
         "neopixel": "github:mworkfun/pxt-neopixel-bluetooth",
@@ -10,7 +10,8 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/bg/pxt-mecanum-robot-strings.json"
     ],
     "testFiles": [
         "test.ts"
