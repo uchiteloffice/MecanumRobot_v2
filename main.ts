@@ -222,7 +222,7 @@ namespace mecanumRobot {
     /**
      * set cat state
      */
-    //% block="car $sta"
+    //% blockId=mecanum_state block="car %sta"
     //% group="Motor" weight=98
     export function state(sta: MotorState) {
         //if (!PCA9685_Initialized) {

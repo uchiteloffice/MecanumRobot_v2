@@ -1,6 +1,6 @@
 {
     "name": "pxt-mecanum-robot",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "keyestudio mecanum robot for micro:bit — с БЪЛГАРСКИ блокове (uchitel.bg)",
     "dependencies": {
         "core": "*",
