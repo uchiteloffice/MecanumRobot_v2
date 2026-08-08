@@ -37,38 +37,56 @@ enum vColors {
  * use for control motor
  */
 enum DIR {
+    //% block="run forward"
     Run_forward = 0,
+    //% block="run back"
     Run_back = 1,
+    //% block="turn left"
     Turn_Left = 2,
+    //% block="turn right"
     Turn_Right = 3
 }
 enum LR {
+    //% block="upper left"
     Upper_left = 0,
+    //% block="lower left"
     Lower_left = 1,
+    //% block="upper right"
     Upper_right = 2,
+    //% block="lower right"
     Lower_right = 3,
 }
 enum MotorState {
+    //% block="stop"
     stop = 0,
+    //% block="brake"
     brake = 1
 }
 enum MD {
+    //% block="forward"
     Forward = 0,
+    //% block="back"
     Back = 1
 }
 
 enum LT {
+    //% block="left"
     Left,
+    //% block="right"
     Right
 }
 
 enum LedCount {
+    //% block="left"
     Left = 12,
+    //% block="right"
     Right = 13
 }
 
 enum LedState {
+    //% block="on"
     ON = 4095,
+    //% block="off"
     OFF = 0
 }
 
